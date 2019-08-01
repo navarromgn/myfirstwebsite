@@ -1,0 +1,166 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    background-color: rgb(171, 59, 97, 65%);
+    
+}
+
+.nav-bar:hover {
+    background-color: red;
+}
+
+.logo {
+    width: 80px;
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+}
+
+/* .banner {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+} */
+
+
+.nav-list {
+    float: right;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.list-item {
+    margin-right: 25px;
+    margin-top: 0 auto;
+    float: left;
+    list-style-type: none;
+}
+.list-item a { 
+    text-decoration: none;
+}
+
+.list-item a:hover {
+    color:black;
+    background-color: red;
+}
+
+h1 {
+    color: green;
+}
+
+/* .taco-text {
+    text-align: center;
+    margin-top: 85px;
+} */
+
+.tacos {
+    background-image: url(../img/ing/tacobanner.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 800px;
+    margin-top: 95px;
+}
+
+.taco-text-box {
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    border: solid 3px yellowgreen;
+    position: absolute;
+    left: 630px;
+    top: 100px;
+}
+
+.taco-text {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-family:'Acme', sans-serif;
+}
+
+.box {
+    width: 32%;
+    height: 500px;
+    border: solid 2px red;
+    float: left;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+.container {
+    height: 550px;
+}
+
+.tacos-col {
+    position: relative;
+}
+
+.taco-img {
+    position: absolute;
+    top: 125px;
+    left: 88px;
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.box p {
+    padding: 25px;
+}
+
+.footer {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(171, 59, 97, 65%);
+}
+
+.footer-box {
+    float: left;
+    width: 30%;
+    height: 80px;
+    /* display: inline-block;
+    position: relative; */
+}
+
+/* .input, .social, .copy {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+} */
+
+.input, .social {
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.copy p {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.fab {
+    font-size: 3em;
+    margin-right: 15px;
+}
+
+.fa-facebook {
+   color: #3b5998;
+}
+
+.fa-instagram {
+    color: #DD2A7B;
+}
+
+.fa-twitter {
+    color: #00acee;
+}
+

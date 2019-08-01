@@ -1,0 +1,22 @@
+.nav-bar:hover {
+    background-color: paleturquoise;
+}
+
+.contact-container {
+    width: 100%;
+    top: 250px;
+    height: 750px;
+}
+
+.contact-box {
+    width: 48%;
+    float: left;
+    border: 3px solid blue;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 15px;
+}
+
+.iframe {
+    margin-top: 50px;
+}
