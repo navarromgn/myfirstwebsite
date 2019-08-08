@@ -9,12 +9,12 @@ body {
     position: fixed;
     top: 0;
     background-color: rgb(171, 59, 97, 65%);
-    
+    z-index: 1;
 }
 
 .nav-bar:hover {
-    background-color: red;
-}
+    background-color: rgb(255, 192, 203);
+} 
 
 .logo {
     width: 80px;
@@ -42,13 +42,14 @@ body {
     float: left;
     list-style-type: none;
 }
+
 .list-item a { 
     text-decoration: none;
 }
 
 .list-item a:hover {
-    color:black;
-    background-color: red;
+    color:rgb(54, 99, 126);
+    background-color: #dab1cf;
 }
 
 h1 {
@@ -71,7 +72,7 @@ h1 {
 .taco-text-box {
     height: 100px;
     width: 300px;
-    background-color: pink;
+    background-color: rgb(255, 192, 203);
     border: solid 3px yellowgreen;
     position: absolute;
     left: 630px;
@@ -91,7 +92,7 @@ h1 {
     border: solid 2px red;
     float: left;
     margin-left: 15px;
-    margin-top: 25px;
+    margin-top: 95px;
 }
 
 .container {
@@ -120,23 +121,24 @@ h1 {
     width: 100%;
     height: 90px;
     background-color: rgb(171, 59, 97, 65%);
+    margin-top: 150px;
 }
 
 .footer-box {
     float: left;
     width: 30%;
     height: 80px;
-    /* display: inline-block;
-    position: relative; */
+    /* display: inline-block; */
+    position: relative;
 }
 
-/* .input, .social, .copy {
+/* .input, .social {
     position: absolute;
     top: 25px;
     left: 50px;
 } */
 
-.input, .social {
+.input, .social, .copy {
     display: block;
     margin-top: 25px;
     text-align: center;
@@ -152,15 +154,15 @@ h1 {
     margin-right: 15px;
 }
 
-.fa-facebook {
-   color: #3b5998;
+.fa-facebook-square {
+    color: hsl(200, 9%, 67%);
 }
 
 .fa-instagram {
     color: #DD2A7B;
 }
 
-.fa-twitter {
-    color: #00acee;
+.fa-twitter-square {
+    color: #086488;
 }
 
