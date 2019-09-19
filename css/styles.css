@@ -87,7 +87,7 @@ h1 {
 }
 
 .box {
-    width: 32%;
+    width: 31%;
     height: 500px;
     border: solid 2px red;
     float: left;
@@ -106,7 +106,7 @@ h1 {
 .taco-img {
     position: absolute;
     top: 125px;
-    left: 88px;
+    left: 64px;
     height: 300px;
     width: 300px;
     display: block;
